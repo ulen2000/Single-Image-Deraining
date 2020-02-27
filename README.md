@@ -57,7 +57,7 @@
 - Rainy Weather Recognition from In-Vehicle Camera Images for Driver Assistance:    [Hiroyuki2005.pdf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d21789e8-7d1e-44a5-8850-e94ccce25ebe/Hiroyuki2005.pdf)
 
 - Detection and Removal of Rain from Videos:    [Kshitiz2004.pdf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/417ca14a-70cc-442e-a6f9-176d1becbb27/Kshitiz2004.pdf)
-\
+
 
 
 #### Thanks for the paper: Single Image Deraining: A Comprehensive Benchmark Analysis (CVPR19)
