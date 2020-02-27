@@ -1,25 +1,4 @@
-## Single Image Deraining: A Comprehensive Benchmark Analysis (CVPR19)
-
-[[Paper Link](https://arxiv.org/abs/1903.08558)]  
-
-Siyuan Li, Iago Breno Araujo, Wenqi Ren, Zhangyang Wang, Eric K. Tokuda, Roberto Hirata Junior, Roberto Cesar-Junior, Jiawan Zhang, Xiaojie Guo, Xiaochun Cao
-
-Abstract: We present a comprehensive study and evaluation of existing single image deraining algorithms, using a new large-scale benchmark consisting of both synthetic and real-world rainy images.This dataset highlights diverse data sources and image contents, and is divided into three subsets (rain streak, rain drop, rain and mist), each serving different training or evaluation purposes. We further provide a rich variety of criteria for dehazing algorithm evaluation, ranging from full-reference metrics, to no-reference metrics, to subjective evaluation and the novel task-driven evaluation. Experiments on the dataset shed light on the comparisons and limitations of state-of-the-art deraining algorithms, and suggest promising future directions.
-
-
-#### If you find the resource useful, please cite the following
-
-```
-@article{Li2019DerainBenchmark,		
-title={Single Image Deraining: A Comprehensive Benchmark Analysis},
-author={Siyuan Li, Iago Breno Araujo, Wenqi Ren, Zhangyang Wang, Eric K. Tokuda, Roberto Hirata Junior, Roberto Cesar-Junior, Jiawan Zhang, Xiaojie Guo and Xiaochun Cao},
-journal={IEEE Conference on Computer Vision and Pattern Recognition},
-year={2019}
-}
-
-```
-
-#### 1. Derain Code Test by Our Paper.
+#### 1. Derain Code Test 
 
 
 | Algorithms | Paper Link | Projects Link |  
@@ -29,11 +8,12 @@ year={2019}
 |   JORDER | [Paper Link](http://openaccess.thecvf.com/content_cvpr_2017/papers/Yang_Deep_Joint_Rain_CVPR_2017_paper.pdf)    | [Code Link](http://www.icst.pku.edu.cn/struct/Projects/joint_rain_removal.html)             |   
 |  ID-CGAN | [Paper Link](https://arxiv.org/abs/1701.05957)    |  [Code Link](https://github.com/TrinhQuocNguyen/Edited_Original_IDCGAN)  | 
 | DerainDrop | [Paper Link](https://arxiv.org/abs/1711.10098)       | [Code Link](https://github.com/rui1996/DeRaindrop)     |   
-| DID-MDN    | [Paper Link](https://arxiv.org/abs/1802.07412)    | [Code Link](https://github.com/hezhangsprinter/DID-MDN)    |  
+| DID-MDN    | [Paper Link](https://arxiv.org/abs/1802.07412)    | [Code Link](https://github.com/hezhangsprinter/DID-MDN)    | 
+| Deep-Network           | [Paper Link](                https://arxiv.org/abs/1609.02087 )   | [Code Link](           https://github.com/jinnovation/rainy-image-dataset}|
 
 
 
-#### 2. Detection Code and Model Test by Our Paper. 
+#### 2. Detection Code and Model
 
 
 | Algorithms | Code Link | Pretrain Model Link |  
@@ -42,9 +22,9 @@ year={2019}
 |   RetinaNet         | [Code Link](https://github.com/fizyr/keras-retinanet)   |  MSCOCO pretrain model    |  
 |   YoloV3            | [Code Link](https://github.com/pjreddie/darknet)    | https://pjreddie.com/media/files/yolov3.weights   |   
 |   SSD-512           | [Code Link](https://github.com/FreeApe/VGG-or-MobileNet-SSD)    | https://drive.google.com/file/d/0BzKzrI_SkD1_NVVNdWdYNEh1WTA/view  | 
+|Deep-Network|**Training code:** [Python code](https://xueyangfu.github.io/paper/2017/tip/TIP17_training_code.zip) (TensorFlow)|**Testing code:** [Matlab code](https://xueyangfu.github.io/paper/2017/tip/TIP17_testing_code.zip) (MatConvNet)|
 
-
-#### 3. Synthetic Data and Real Data Adopt in Our Paper. 
+#### 3. Synthetic Data and Real Data 
 
 | Data Type | Download Link |  Download Link |  
 | ------------------- | ------------------------------------------------------- | ------------------- |
@@ -53,9 +33,16 @@ year={2019}
 | Rain Mist        | [Real](https://pan.baidu.com/s/1lB5jQgGr-5aGuxT5Z8_YmA) Access Code: 6h55  | [Synthetic](https://pan.baidu.com/s/1JYtoefuCHovSE2emXP6LwA) Access Code: 8kae     |  
 | Rain Drop        | [Real](https://pan.baidu.com/s/1TlDY2XV2U3Et2egRO96t_g) Access Code: n6xf  | [Synthetic](https://pan.baidu.com/s/1qFrtVvPLqc1FnsmHlXYgiA) Access Code : wscw     |   
 | Rain Streak      | [Real](https://pan.baidu.com/s/1XctM1xT9KKq3JU_OXPJiLg) Access Code: npsy  | [Synthetic](https://pan.baidu.com/s/11t4XIx6f3CEvmOw2XO9fqQ) Access Code: drxn     | 
+| Deep-Network           | https://github.com/jinnovation/rainy-image-dataset |
 
 
-
-#### 4. Special thanks to my teammates @[JackYu](https://github.com/szad670401)
+#### 4. Some related algorithms and Paper Link
+- SPM：[ee.nthu.edu.tw/cwlin/Rain_Removal/tip_rain_removal_2011.pdf](http://ee.nthu.edu.tw/cwlin/Rain_Removal/tip_rain_removal_2011.pdf)
+- PRM：[https://ieeexplore.ieee.org/document/6751355/](https://ieeexplore.ieee.org/document/6751355/)
+- DSC: [https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Luo_Removing_Rain_From_ICCV_2015_paper.pdf](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Luo_Removing_Rain_From_ICCV_2015_paper.pdf)
+- CNN: [https://arxiv.org/pdf/1609.02087.pdf](https://arxiv.org/pdf/1609.02087.pdf)
+- GMM: [https://zpascal.net/cvpr2016/Li_Rain_Streak_Removal_CVPR_2016_paper.pdf](https://zpascal.net/cvpr2016/Li_Rain_Streak_Removal_CVPR_2016_paper.pdf)
+- CCR: [https://engineering.jhu.edu/vpatel36/wp-content/uploads/2018/08/wacv_2017_rain_v11.pdf](https://engineering.jhu.edu/vpatel36/wp-content/uploads/2018/08/wacv_2017_rain_v11.pdf)
+- DDN: [https://www.zpascal.net/cvpr2017/Fu_Removing_Rain_From_CVPR_2017_paper.pdf](https://www.zpascal.net/cvpr2017/Fu_Removing_Rain_From_CVPR_2017_paper.pdf)
 
 
