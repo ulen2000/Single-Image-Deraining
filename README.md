@@ -45,22 +45,15 @@
 - CCR: [https://engineering.jhu.edu/vpatel36/wp-content/uploads/2018/08/wacv_2017_rain_v11.pdf](https://engineering.jhu.edu/vpatel36/wp-content/uploads/2018/08/wacv_2017_rain_v11.pdf)
 - DDN: [https://www.zpascal.net/cvpr2017/Fu_Removing_Rain_From_CVPR_2017_paper.pdf](https://www.zpascal.net/cvpr2017/Fu_Removing_Rain_From_CVPR_2017_paper.pdf)
 
-- Image De-raining Using a Conditional Generative Adversarial Network
+- Image De-raining Using a Conditional Generative Adversarial Network:    [Image De-raining Using a Conditional Generative Adversarial Network](https://arxiv.org/abs/1701.05957)
 
-    [Image De-raining Using a Conditional Generative Adversarial Network](https://arxiv.org/abs/1701.05957)
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e62bdf63-03e8-4803-9f03-9da278446c1e/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e62bdf63-03e8-4803-9f03-9da278446c1e/Untitled.png)
 
-    proposed ID-CGAN method
 
-- Rain or snow detection in image sequences through use of a histogram of orientation of streaks
 
-    [Bossu2011.pdf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/66e4df28-da30-45d8-a1c0-5e34be864cdd/Bossu2011.pdf)
+- Rain or snow detection in image sequences through use of a histogram of orientation of streaks:    [Bossu2011.pdf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/66e4df28-da30-45d8-a1c0-5e34be864cdd/Bossu2011.pdf)
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ad0746be-3bba-4ed0-8680-b991ad94ce13/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ad0746be-3bba-4ed0-8680-b991ad94ce13/Untitled.png)
+   
+- Rainy Weather Recognition from In-Vehicle Camera Images for Driver Assistance:    [Hiroyuki2005.pdf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d21789e8-7d1e-44a5-8850-e94ccce25ebe/Hiroyuki2005.pdf)
 
-- Rainy Weather Recognition from In-Vehicle Camera Images for Driver Assistance
-    [Hiroyuki2005.pdf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d21789e8-7d1e-44a5-8850-e94ccce25ebe/Hiroyuki2005.pdf)
-
-- Detection and Removal of Rain from Videos
-    [Kshitiz2004.pdf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/417ca14a-70cc-442e-a6f9-176d1becbb27/Kshitiz2004.pdf)
+- Detection and Removal of Rain from Videos:    [Kshitiz2004.pdf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/417ca14a-70cc-442e-a6f9-176d1becbb27/Kshitiz2004.pdf)
