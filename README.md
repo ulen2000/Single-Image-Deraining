@@ -54,10 +54,10 @@
 ## The rain models
 * Automatic single-image-based rain streaks removal via image decomposition (TIP2012), Kang et al [[PDF]](http://www.ee.nthu.edu.tw/cwlin/Rain_Removal/tip_rain_removal_2011.pdf) [[Code]](http://www.ee.nthu.edu.tw/cwlin/pub/rain_tip2012_code.rar)
 
-*Removing rain from a single image via discriminative sparse coding [[PDF]](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Luo_Removing_Rain_From_ICCV_2015_paper.pdf)
+* Removing rain from a single image via discriminative sparse coding [[PDF]](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Luo_Removing_Rain_From_ICCV_2015_paper.pdf)
 
-*Depth-attentional Features for Single-image Rain Removal [[PDF]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Hu_Depth-Attentional_Features_for_Single-Image_Rain_Removal_CVPR_2019_paper.pdf)
-*Frame-Consistent Recurrent Video Deraining with Dual-Level Flow [[PDF]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Yang_Frame-Consistent_Recurrent_Video_Deraining_With_Dual-Level_Flow_CVPR_2019_paper.pdf)
+* Depth-attentional Features for Single-image Rain Removal [[PDF]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Hu_Depth-Attentional_Features_for_Single-Image_Rain_Removal_CVPR_2019_paper.pdf)
+* Frame-Consistent Recurrent Video Deraining with Dual-Level Flow [[PDF]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Yang_Frame-Consistent_Recurrent_Video_Deraining_With_Dual-Level_Flow_CVPR_2019_paper.pdf)
 
 ## model-driven
   * Guided image filtering (ECCV2010), He et al. [[Project]](http://kaiminghe.com/eccv10/index.html) [[PDF]](http://kaiminghe.com/publications/eccv10guidedfilter.pdf) [[Code]](http://kaiminghe.com/eccv10/guided-filter-code-v1.rar)
