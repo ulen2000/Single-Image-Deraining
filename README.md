@@ -1,4 +1,4 @@
-#### 1. Derain Code Test 
+## 1. Derain Code Test 
 
 
 | Algorithms | Paper Link | Projects Link |  
@@ -17,7 +17,7 @@
 
 
 
-#### 2. Detection Code and Model
+## 2. Detection Code and Model
 
 
 | Algorithms | Code Link | Pretrain Model Link |  
@@ -27,7 +27,7 @@
 |   YoloV3            | [Code Link](https://github.com/pjreddie/darknet)    | https://pjreddie.com/media/files/yolov3.weights   |   
 |   SSD-512           | [Code Link](https://github.com/FreeApe/VGG-or-MobileNet-SSD)    | https://drive.google.com/file/d/0BzKzrI_SkD1_NVVNdWdYNEh1WTA/view  | 
 
-#### 3. Synthetic Data and Real Data 
+## 3. Synthetic Data and Real Data 
 
 | Data Type | Download Link |  Download Link |  
 | ------------------- | ------------------------------------------------------- | ------------------- |
@@ -48,22 +48,7 @@
 * FSIM (Feature Similarity) [[PDF]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5705575) [[Matlab Code]](http://sse.tongji.edu.cn/linzhang/IQA/FSIM/FSIM.htm))
 
 
-#### 5. Some related algorithms and Paper Link
-- SPM：[ee.nthu.edu.tw/cwlin/Rain_Removal/tip_rain_removal_2011.pdf](http://ee.nthu.edu.tw/cwlin/Rain_Removal/tip_rain_removal_2011.pdf)
-- PRM：[https://ieeexplore.ieee.org/document/6751355/](https://ieeexplore.ieee.org/document/6751355/)
-- DSC: [https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Luo_Removing_Rain_From_ICCV_2015_paper.pdf](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Luo_Removing_Rain_From_ICCV_2015_paper.pdf)
-- CNN: [https://arxiv.org/pdf/1609.02087.pdf](https://arxiv.org/pdf/1609.02087.pdf)
-- GMM: [https://zpascal.net/cvpr2016/Li_Rain_Streak_Removal_CVPR_2016_paper.pdf](https://zpascal.net/cvpr2016/Li_Rain_Streak_Removal_CVPR_2016_paper.pdf)
-- CCR: [https://engineering.jhu.edu/vpatel36/wp-content/uploads/2018/08/wacv_2017_rain_v11.pdf](https://engineering.jhu.edu/vpatel36/wp-content/uploads/2018/08/wacv_2017_rain_v11.pdf)
-- DDN: [https://www.zpascal.net/cvpr2017/Fu_Removing_Rain_From_CVPR_2017_paper.pdf](https://www.zpascal.net/cvpr2017/Fu_Removing_Rain_From_CVPR_2017_paper.pdf)
-
-- Image De-raining Using a Conditional Generative Adversarial Network:    [Image De-raining Using a Conditional Generative Adversarial Network](https://arxiv.org/abs/1701.05957)
-
-
-- Rain or snow detection in image sequences through use of a histogram of orientation of streaks:    [Bossu2011.pdf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/66e4df28-da30-45d8-a1c0-5e34be864cdd/Bossu2011.pdf)
-
-   
-- Rainy Weather Recognition from In-Vehicle Camera Images for Driver Assistance:    [Hiroyuki2005.pdf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d21789e8-7d1e-44a5-8850-e94ccce25ebe/Hiroyuki2005.pdf)
+## 5. Some related algorithms and Paper Link
 
 ## The rain models
 * Automatic single-image-based rain streaks removal via image decomposition (TIP2012), Kang et al [[PDF]](http://www.ee.nthu.edu.tw/cwlin/Rain_Removal/tip_rain_removal_2011.pdf) [[Code]](http://www.ee.nthu.edu.tw/cwlin/pub/rain_tip2012_code.rar)
