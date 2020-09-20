@@ -9,8 +9,6 @@
 |  ID-CGAN | [Paper Link](https://arxiv.org/abs/1701.05957)    |  [Code Link](https://github.com/TrinhQuocNguyen/Edited_Original_IDCGAN)  | 
 | DerainDrop | [Paper Link](https://arxiv.org/abs/1711.10098)       | [Code Link](https://github.com/rui1996/DeRaindrop)     |   
 | DID-MDN    | [Paper Link](https://arxiv.org/abs/1802.07412)    | [Code Link](https://github.com/hezhangsprinter/DID-MDN)    | 
-| Deep-Network           | [Paper Link](                https://arxiv.org/abs/1609.02087 )   | [Code Link]
-(https://github.com/jinnovation/rainy-image-dataset)|
 | DerainNet    | [Paper Link](https://arxiv.org/abs/1609.02087 )    | [Code Link](https://xueyangfu.github.io/projects/tip2017.html)    | 
 | LPNet    | [Paper Link](https://arxiv.org/abs/1805.06173)    | [Code Link](https://xueyangfu.github.io/projects/LPNet.html)    | 
 | PReNet    | [Paper Link](https://arxiv.org/abs/1901.09221)    | [Code Link](https://github.com/csdwren/PReNet)    | 
