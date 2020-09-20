@@ -65,19 +65,15 @@
    
 - Rainy Weather Recognition from In-Vehicle Camera Images for Driver Assistance:    [Hiroyuki2005.pdf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d21789e8-7d1e-44a5-8850-e94ccce25ebe/Hiroyuki2005.pdf)
 
-## Physical Properties of Raindrops
-* Gemometric Property 
-  * Terminal velocity of raindrops aloft (JAMC1969), Foote et al [[PDF]](https://journals.ametsoc.org/doi/pdf/10.1175/1520-0450%281969%29008%3C0249%3ATVORA%3E2.0.CO%3B2)
-  * A new model for the equilibrium shape of raindrops (JAS1987), Beard et al. [[PDF]](https://journals.ametsoc.org/doi/pdf/10.1175/1520-0469\(1987\)044%3C1509:ANMFTE%3E2.0.CO%3B2)
-* Brightness Property
-  * Photometric model of a rain drop (Technical Report, Columbia University2004), Garg et al [[PDF]](http://www1.cs.columbia.edu/CAVE/publications/pdfs/Garg_TR04.pdf)
-  * Vision and Rain (IJCV2007), Garg et al [[Project]](http://www.cs.columbia.edu/CAVE/projects/camera_rain/)[[PDF]](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.442.9985&rep=rep1&type=pdf) 
-* Chromatic Property 
-  * Rain removal in video by combining temporal and chromatic properties (ICME2006), Zhang et al [[Project]](https://www.comp.nus.edu.sg/~leowwk/demo/rain-removal.mpg)[[PDF]](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.64.1760&rep=rep1&type=pdf)
-* Spatial and Temporal Propety
-  * Simulation of rain in videos (TAS2003), Starik et al [[PDF]](http://lear.inrialpes.fr/people/triggs/events/iccv03/cdrom/texture03/texture03-ab018.pdf)
-  * Pixel based temporal analysis using chromatic property for removing rain from videos (CIC2009), Liu et al [[PDF]](https://pdfs.semanticscholar.org/27fe/cae9d02fbfbea2b0fc9f2577179fb359c8b1.pdf) 
-* Filter based methods
+## The rain models
+* Automatic single-image-based rain streaks removal via image decomposition (TIP2012), Kang et al [[PDF]](http://www.ee.nthu.edu.tw/cwlin/Rain_Removal/tip_rain_removal_2011.pdf) [[Code]](http://www.ee.nthu.edu.tw/cwlin/pub/rain_tip2012_code.rar)
+
+*Removing rain from a single image via discriminative sparse coding [[PDF]](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Luo_Removing_Rain_From_ICCV_2015_paper.pdf)
+
+*Depth-attentional Features for Single-image Rain Removal [[PDF]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Hu_Depth-Attentional_Features_for_Single-Image_Rain_Removal_CVPR_2019_paper.pdf)
+*Frame-Consistent Recurrent Video Deraining with Dual-Level Flow [[PDF]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Yang_Frame-Consistent_Recurrent_Video_Deraining_With_Dual-Level_Flow_CVPR_2019_paper.pdf)
+
+## model-driven
   * Guided image filtering (ECCV2010), He et al. [[Project]](http://kaiminghe.com/eccv10/index.html) [[PDF]](http://kaiminghe.com/publications/eccv10guidedfilter.pdf) [[Code]](http://kaiminghe.com/eccv10/guided-filter-code-v1.rar)
   * Removing rain and snow in a single image using guided filter (CSAE2012), Xu et al. [[PDF]](https://ieeexplore_ieee.gg363.site/abstract/document/6272780)
   * An improved guidance image based method to remove rain and snow in a single image (CIS2012), Xu et al. [[PDF]](https://pdfs.semanticscholar.org/6eac/36e3334dd0c9188b5a61af73909dcbfff39c.pdf)
@@ -85,7 +81,7 @@
   * Single-image-based rain and snow removal using multi-guided filter (NIPS2013), Zheng et al. [[PDF]](https://pdfs.semanticscholar.org/f111/54e4e1adbde9f24b25fd2d98337a759d8b21.pdf)
   * Single image rain and snow removal via guided L0 smoothing filter (Multimedia Tools and Application2016), Ding et al. [[PDF]](https://link_springer.gg363.site/article/10.1007/s11042-015-2657-7)
   
-* Prior based methods
+
   * Automatic single-image-based rain streaks removal via image decomposition (TIP2012), Kang et al [[PDF]](http://www.ee.nthu.edu.tw/cwlin/Rain_Removal/tip_rain_removal_2011.pdf) [[Code]](http://www.ee.nthu.edu.tw/cwlin/pub/rain_tip2012_code.rar)
   * Self-learning-based rain streak removal for image/video (ISCS2012), Kang et al. [[PDF]](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.701.3957&rep=rep1&type=pdf)
   * Single-frame-based rain removal via image decomposition (ICA2013), Fu et al. [[PDF]](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.707.1053&rep=rep1&type=pdf)
@@ -101,7 +97,7 @@
   * Joint convolutional analysis and synthesis sparse representation for single image layer separation (CVPR2017), Gu et al [[PDF]](http://openaccess.thecvf.com/content_iccv_2017/html/Gu_Joint_Convolutional_Analysis_ICCV_2017_paper.html) [[Code]](https://sites.google.com/site/shuhanggu/home)
   * Single image deraining via decorrelating the rain streaks and background scene in gradient domain (PR2018)， Du et al [[PDF]](https://www.sciencedirect.com/science/article/pii/S0031320318300700)
   
-* Deep Learning
+## data-driven
   * Restoring an image taken through a window covered with dirt or rain (ICCV2013), Eigen et al. [[Project]](https://cs.nyu.edu/~deigen/rain/) [[PDF]](http://openaccess.thecvf.com/content_iccv_2013/papers/Eigen_Restoring_an_Image_2013_ICCV_paper.pdf) [[Code]](https://cs.nyu.edu/~deigen/rain/restore-dirt-rain.tgz)
   * Attentive generative adversarial network for raindrop removal from a single image (CVPR2018), Qian et al [[Project]](https://rui1996.github.io/raindrop/raindrop_removal.html) [[PDF]](https://arxiv.org/abs/1711.10098)
   * Clearing the skies: A deep network architecture for single-image rain streaks removal (TIP2017), Fu et al. [[Project]](https://xueyangfu.github.io/projects/tip2017.html) [[PDF]](https://ieeexplore.ieee.org/abstract/document/7893758/) [[Code]](https://xueyangfu.github.io/projects/tip2017.html)
